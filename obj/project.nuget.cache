@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "isFo1qySzvWkjxQr+95Y2ml/5BEwjCWKMDYgEqZam0x7w55Rd47NufzhfTtlJElnepsM7Srr1cX+eeV51V9OHg==",
+  "success": true,
+  "projectFilePath": "/home/ricardo/.local/share/Terraria/ModLoader/Mod Sources/tf2_mobility/tf2_mobility.csproj",
+  "expectedPackageFiles": [
+    "/home/ricardo/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.0/microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "/home/ricardo/.nuget/packages/microsoft.netframework.referenceassemblies.net45/1.0.0/microsoft.netframework.referenceassemblies.net45.1.0.0.nupkg.sha512",
+    "/home/ricardo/.nuget/packages/tmodloader.codeassist/0.1.2/tmodloader.codeassist.0.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

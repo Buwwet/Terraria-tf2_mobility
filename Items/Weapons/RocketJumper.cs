@@ -23,15 +23,20 @@ namespace tf2_mobility.Items.Weapons {
             item.rare = ItemRarityID.Blue;
 
             //Weapon shoot speed.
-            item.useTime = 10;
-            item.useAnimation = 10;
+            item.useTime = 20;
+            item.useAnimation = 20;
             item.useStyle = ItemUseStyleID.HoldingOut;
             //For the weapon to not be tiny
             item.scale = 1.2f;
 
             //Shoot the rocket.
-            item.shoot = ProjectileID.Bullet;
+            item.shoot = mod.ProjectileType("Rocket");
+            item.damage = 1;
             item.shootSpeed = 16;
+
+            //make cool shooting sound
+            //TODO: ADD SOUND FROM GAME
+            item.UseSound = SoundID.Item114;
 
         }
 
