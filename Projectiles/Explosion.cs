@@ -32,7 +32,7 @@ namespace tf2_mobility.Projectiles {
         }
         
         public override bool PreAI(){
-
+            
             /* Loop through all NPCs and Launch them if:
              * 1. They're active
              * 2. The projectile's Hitbox.Intersects with the npc's Hitbox;
@@ -58,12 +58,13 @@ namespace tf2_mobility.Projectiles {
             Player player = Main.player[projectile.owner];
             Vector2 jumpMultiplier = new Vector2(1, 1);
             
+           
             //Check if player's hitbox intersects with the projectile's.
             if (projectile.Hitbox.Intersects(player.Hitbox)) {
                 //Remember that -Y is up
-                jumpMultiplier.X = (player.jump == 1) ? 1.6f : 1f;
-                jumpMultiplier.Y = (player.jump == 1) ? 1.7f : 1f;
-
+                jumpMultiplier.X = (player.velocity.Y != 0) ? 1.6f : 1f;
+                jumpMultiplier.Y = (player.velocity.Y != 0) ? 1.2f : 1f;
+                
                 player.velocity += jumpMultiplier * LaunchDirection(projectile.Center, player.Center);
             }
             
