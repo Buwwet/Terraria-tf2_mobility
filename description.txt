@@ -1,1 +1,13 @@
-TF2 Movement is a pretty cool mod, it does...this. Modify this file with a description of your mod.
+TF2 Movement has some movement related weapons and accessories.
+
+Weapons:
+    Rocket Jumper: Shoots "harmless" knockback rockets that any soldier could love. Learn Rocketjumping!
+
+Accessories:
+    Thermal Thruster: Simple movement accessory concept. Jump and as you fall, gain thrust.
+
+NOTE: There is no way to obtain these items in normal progression, they are for fun and experimentation only. You will need Cheat Sheet
+
+
+Github: https://github.com/Buwwet/Terraria-tf2_mobility
+Discord: Buwwet#1013

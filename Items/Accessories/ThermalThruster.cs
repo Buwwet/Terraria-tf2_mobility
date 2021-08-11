@@ -5,6 +5,7 @@ using Microsoft.Xna.Framework;
  
 
 namespace tf2_mobility.Items.Accessories {
+    [AutoloadEquip(EquipType.Back)]
     public class ThermalThruster : ModItem {
         public override void SetStaticDefaults()
         {

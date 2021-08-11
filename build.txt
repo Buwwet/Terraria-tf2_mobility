@@ -1,3 +1,4 @@
 displayName = TF2 Movement
 author = Buwwet
-version = 0.1
+version = 0.1.1
+homepage = https://github.com/Buwwet/Terraria-tf2_mobility
